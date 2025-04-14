@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\work\\CatchItem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{595319D9-E3C7-F7CC-8D47-E5EAF5403CC0}|Assembly-CSharp.csproj|c:\\work\\catchitem\\assets\\scripts\\playerctrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{595319D9-E3C7-F7CC-8D47-E5EAF5403CC0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerctrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerCtrl.cs",
+              "DocumentMoniker": "C:\\work\\CatchItem\\Assets\\Scripts\\PlayerCtrl.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerCtrl.cs",
+              "ToolTip": "C:\\work\\CatchItem\\Assets\\Scripts\\PlayerCtrl.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerCtrl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T05:57:22.917Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
