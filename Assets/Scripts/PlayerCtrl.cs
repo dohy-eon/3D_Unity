@@ -32,7 +32,7 @@ public class PlayerCtrl : MonoBehaviour
             this.rigid.AddForce(transform.up * this.jumpForce);
         }
 
-        // 이동
+        // 키보드 이동
         int key = 0;
         if (Input.GetKey(KeyCode.RightArrow))
         {
@@ -54,13 +54,24 @@ public class PlayerCtrl : MonoBehaviour
             key = -2;
             this.rigid.AddForce(transform.forward * key * this.walkForce);
         }
+    }
 
+    //  버튼용
+    public void MoveUpByButton()
+    {
+        Debug.Log("버튼 클릭됨! 위로 이동");
+        rigid.AddForce(transform.forward * walkForce * 1f, ForceMode.Impulse);  // `transform.forward`로 이동 (앞 방향)
+    }
+
+
+    public void MoveDownByButton()
+    {
+        rigid.AddForce(transform.forward * walkForce * -1f, ForceMode.Impulse);
     }
 
     void OnTriggerEnter(Collider other)
     {
         Debug.Log("아이템 획득!");
-
         score += 10;
 
         if (score >= 0)
